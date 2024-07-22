@@ -1,22 +1,31 @@
 $primryColor: blue;
 $secondaryColor: rgb(249, 190, 13);
 
+@mixin borderpara($width, $color) {
+    border: $width solid $color;
+}
+
+@mixin importantColor {
+    color: red;
+}
+
 body  {
     background-color: $secondaryColor;
 }
 
 .head {
     h1 {
+        @include borderpara(2px, green);
         color: $primryColor;
         font-size: 30px;
     }
     p {
+        @include importantColor;
         font-size: 15px;
         line-height: 5px;
     }
 }
 
 img {
-    width: 500px
-    ;
+    width: 500px;
 }

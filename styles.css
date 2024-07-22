@@ -3,10 +3,12 @@ body {
 }
 
 .head h1 {
+  border: 2px solid green;
   color: blue;
   font-size: 30px;
 }
 .head p {
+  color: red;
   font-size: 15px;
   line-height: 5px;
 }
