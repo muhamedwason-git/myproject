@@ -1,6 +1,22 @@
 $primryColor: blue;
+$secondaryColor: rgb(249, 190, 13);
 
-h1 {
-    color: $primryColor;
-    font-size: 23px;
+body  {
+    background-color: $secondaryColor;
+}
+
+.head {
+    h1 {
+        color: $primryColor;
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 5px;
+    }
+}
+
+img {
+    width: 500px
+    ;
 }

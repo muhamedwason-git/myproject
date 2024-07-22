@@ -1,12 +1,16 @@
 body {
-    background-color: bisque;
+  background-color: rgb(249, 190, 13);
 }
 
-p{
-    color: cadetblue;
-    font-size: 13px;
+.head h1 {
+  color: blue;
+  font-size: 30px;
+}
+.head p {
+  font-size: 15px;
+  line-height: 5px;
 }
 
 img {
-    width: 500px;
-}
+  width: 500px;
+}/*# sourceMappingURL=styles.css.map */
